@@ -39,7 +39,7 @@ function getWeather(longitudeCoord, latitudeCoord) {
   var ourRequest = new XMLHttpRequest();
   ourRequest.open(
     "GET",
-    "http://api.openweathermap.org/data/2.5/weather?lat=" +
+    "https://api.openweathermap.org/data/2.5/weather?lat=" +
       latitudeCoord +
       "&lon=" +
       longitudeCoord +
